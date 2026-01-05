@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="main-header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+            
+                <!-- Logo -->
+                <a class="navbar-brand d-flex align-items-center" href="index.html">
+                    <img src="logo.png" alt="MediCare Logo" class="logo">
+                    <!-- <span class="brand-text">
+                    <strong>Medi</strong><span>Care</span>
+                    <small>Pharmacy</small>
+                    </span> -->
+                </a>
+
+                <!-- Mobile Toggle -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Menu -->
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav menu">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact.html">Contact</a>
+                    </li>
+                    </ul>
+                </div>
+
+            </nav>
+        </div>
+    </header>
+
+<section class="container py-5">
+
+    <div class="page-title">
+      <h1>Contact Us</h1>
+      <p>
+        Have questions or need assistance? Reach out to us — we’re here to help
+        you stay healthy.
+      </p>
+    </div>
+
+    <div class="row g-4">
+
+      <!-- Contact Info -->
+      <div class="col-lg-5">
+        <div class="contact-card contact-info">
+          <h4 class="fw-bold mb-4">Get in Touch</h4>
+
+          <div class="d-flex align-items-start mb-3">
+            <i class="bi bi-geo-alt"></i>
+            <p>Medicare Pharmacy, Ganj, Bihar</p>
+          </div>
+
+          <div class="d-flex align-items-start mb-3">
+            <i class="bi bi-telephone"></i>
+            <p>+91 62053 98210</p>
+          </div>
+
+          <div class="d-flex align-items-start mb-3">
+            <i class="bi bi-envelope"></i>
+            <p>mdsk625@gmail.com</p>
+          </div>
+
+          <div class="d-flex align-items-start">
+            <i class="bi bi-clock"></i>
+            <p>Open: Mon – Sun | 8:00 AM – 10:00 PM</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="col-lg-7">
+        <div class="contact-card">
+          <h4 class="fw-bold mb-4">Send Us a Message</h4>
+
+          <form>
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Your Name"
+                  required
+                />
+              </div>
+
+              <div class="col-md-6 mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Subject"
+              />
+            </div>
+
+            <div class="mb-3">
+              <textarea
+                class="form-control"
+                rows="5"
+                placeholder="Your Message"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-send w-100">
+              <i class="bi bi-send"></i> Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+  <footer class="footer pt-5">
+        <div class="container">
+            <div class="row">
+
+            <div class="col-md-4 mb-4">
+                <h4 class="footer-title">MediCare Pharmacy</h4>
+                <p>Your trusted online medical store delivering genuine medicines and healthcare products.</p>
+            </div>
+
+            <div class="col-md-2 mb-4">
+                <h5 class="footer-heading">Quick Links</h5>
+                <ul class="footer-links">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/products.html">Shop</a></li>
+                <li><a href="/about.html">About Us</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 mb-4">
+                <h5 class="footer-heading">Services</h5>
+                <ul class="footer-links">
+                <li><a href="#">Prescription Medicines</a></li>
+                <li><a href="#">Health Products</a></li>
+                <li><a href="#">Home Delivery</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 mb-4">
+                <h5 class="footer-heading">Contact Us</h5>
+                <p><i class="bi bi-geo-alt"></i> Begusarai, Bihar, India</p>
+                <p><i class="bi bi-telephone"></i> +91 62053 98210</p>
+                <p><i class="bi bi-envelope"></i> mdsk625@gmail.com</p>
+            </div>
+
+            </div>
+
+            <hr>
+
+            <div class="text-center pb-3">
+            <p class="mb-0">© 2025 MediCare. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+      const navLinks = document.querySelectorAll(".nav-link");
+      const currentPage = window.location.pathname.split("/").pop();
+
+      navLinks.forEach(link => {
+        const linkPage = link.getAttribute("href");
+
+        if (linkPage === currentPage) {
+          link.classList.add("active");
+        }
+      });
+    </script>
+
+</body>
+</html>
